@@ -13,7 +13,7 @@ import EditPost from './EditPost'
 function App() {
   return (
     <div className="App">
-      <Header title="React Js Blog" />
+      <Header title="Awesome Blogs" />
       <DataProvider>
         <Nav />
         <Routes>
