@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useAsyncError } from "react-router-dom";
 
 const useAxiosFetch = (dataUrl) => {
     const [data, setData] = useState([]);
